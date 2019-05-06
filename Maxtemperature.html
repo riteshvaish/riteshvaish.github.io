@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Dashboard (Latitude)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body style= "background-color:silver">
+    <nav class="navbar navbar-expand-sm bg-white navbar-light">
+        <a href="index.html" class="topnav-icons fa fa-home w3-left w3-bar-item w3-button" title="Home"></a>
+        <a class="navbar-brand" style= "background-color:rgb(75, 182, 159) ; font-size:28px; padding:10px" href="index.html">Lattitude</a>
+      
+        <ul class="navbar-nav ml-auto">
+          <!-- Dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Plots
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="Maxtemperature.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            </div>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="comparison.html">  Comparison </a></li>
+          <li class="nav-item"><a class="nav-link" href="data.html">Data</a></li>
+        </ul>
+      </nav>
+      
+    <div class="container-fluid" style="margin-top:30px bg-light">
+        <!-- Our columns function in rows. -->
+        <div class="row">
+            <div class="col-8">
+                <div class="col m-5 border bg-white">
+                <h1> Max temperature</h1>
+                <br>
+                    <div class="d-flex justify-content-left">
+                        <br>
+                        <div class="media-left">
+                          <a href="./Images/MaxTemperaturePlot.png">
+                            <img class="media-object" src="./Images/MaxTemperaturePlot.png" alt="vsMaxTemperature" class="float-left" width="650" height="500">
+                          </a>
+                      
+                          <br>
+                          <br>
+                          <p>looking at the data and the plotted diagram it shows that as we move to the cities closer to equator. The temperature of cities goes Higher
+                          </p>  
+                        
+                        </div>
+                      </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="col m-5 border bg-white">
+                    <h1> Visualizations </h1>
+                      <div class="row">
+                          <div class="col-md-6">
+                              <a href="./Images/MaxTemperaturePlot.png">
+                                <img src="./Images/MaxTemperaturePlot.png" alt="Maxteamperature" style="width:80%">
+                              </a>
+                          </div>
+                          <div class="col-md-6">
+                                <a href="./Images/HumidityPlot.png">
+                                  <img src="./Images/HumidityPlot.png" alt="Lights" style="width:80%">
+                                </a>
+                          </div>
+                      </div>
+                      <div class="row">
+                          <div class="col-md-6">
+                                <a href="./Images/CloudinessPlot.png">
+                                  <img src="./Images/CloudinessPlot.png" alt="Nature" style="width:80%">
+                                </a>
+                          </div>
+                          <div class="col-md-6">
+                                <a href="./Images/WindSpeedPlot.png">
+                                  <img src="./Images/WindSpeedPlot.png" alt="Lights" style="width:80%">
+                                </a>
+                          </div>
+                      </div> 
+                  </div>
+            </div> 
+        </div>
+
+    </div>
+
+</body>
+</html>
